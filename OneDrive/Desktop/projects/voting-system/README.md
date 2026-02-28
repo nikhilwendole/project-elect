@@ -84,3 +84,17 @@ Change `cv2.VideoCapture(0)` to `cv2.VideoCapture(1)` or use a static image for 
 ## Developers
 - Yash
 - Nikhil
+
+## Dependencies
+
+Core libraries needed:
+- `deepface==0.0.98` — face recognition and encoding
+- `opencv-python==4.13.0.92` — camera and image processing
+- `numpy==2.4.2` — numerical operations
+- `tensorflow==2.20.0` — required by DeepFace under the hood
+- `cmake==4.2.1` — required for building some dependencies
+
+Everything else installs automatically when you run:
+```bash
+pip install deepface opencv-python numpy
+```
